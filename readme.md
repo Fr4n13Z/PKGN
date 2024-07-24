@@ -21,6 +21,16 @@ gensim~=4.0.1
 torch-geometric ~=2.0.4
 ```
 
+The processed dataset is in `\neighbor_graph`, which includes the top-20 high-influence neighbor user posts, psychological-relevant categories & edges between posts and categories. The processed dataset is the `dict` structure:
+
+```python
+{
+    "features": List[List[str]], # first 18 categories + max 200 neighbor user posts
+    "labels": str,	# MBTI label from personality-database
+    "edges": List[List[int]]	# edges between category nodes and post nodes
+}
+```
+
 ## Usage
 
 1. Install the required packages.
