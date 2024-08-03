@@ -96,7 +96,7 @@ def train_process(args: Any, model, optimizer, train_dataloader, test_dataloader
         logger.info('epoch = {}, train_result:'.format(epoch))
         get_evaluation(preds, annos, logger)
         with torch.no_grad():
-            # torch.save(model, os.path.join('result', args.output_dir, 'MBTI_friendsNum.pt'))
+            # torch.save(model, os.path.join('result', args.output_dir, 'MBTI_Result.pt'))
             torch.save(model.state_dict(), str(os.path.join(args.output_dir, args.save_path)))
             test_loss, test_acc, preds, annos = test_process(args, model, test_dataloader, device)
             final_test_f1 = get_evaluation(preds, annos, logger)
