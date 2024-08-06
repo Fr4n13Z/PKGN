@@ -4,8 +4,6 @@
 
 The processed dataset & Code for the paper *Psycholinguistic Knowledge-guided Graph Network for Personality Detection of Silent Users*.
 
-![](./pics/framework.png)
-
 Python requirements:
 
 ```python
