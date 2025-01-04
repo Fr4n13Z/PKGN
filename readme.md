@@ -40,6 +40,18 @@ The processed dataset is in `\neighbor_graph`, which includes the top-20 high-in
 
 3. The result is saved in the directory `./result`.
 
+
+# Reference
+
+Please include a citation to the following paper if you use our processed dataset and code:
+
+@article{PKGN_2025,
+  title={Psycholinguistic Knowledge-guided Graph Network for Personality Detection of Silent Users},
+  author={Houjie Qiu, Xingkong Ma, Bo Liu, Yiqing Cai, Xinyi Chen, Zhaoyun Ding},
+  journal={Information Processing & Management},
+  year={2025}
+}
+
 ## Ethical Concerns
 
 > Personality detection is an ethically sensitive task aimed at the people themselves. Our study aims to develop a technical method for silent user research instead of creating a privacy-invading tool. To ensure the privacy of crawled users, we worked within the purview of acceptable privacy practices and strictly followed the Twitter and Personality Database data usage policies. The dataset used in our research is from public sources, and all user information is anonymized. Moreover, any research or application based on our study is only allowed for research purposes to avoid the misuse and abuse of our work for causing real-world threats.
