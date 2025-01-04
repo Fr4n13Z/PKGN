@@ -45,12 +45,14 @@ The processed dataset is in `\neighbor_graph`, which includes the top-20 high-in
 
 Please include a citation to the following paper if you use our processed dataset and code:
 
-> @article{PKGN_2025,
+```tex
+@article{PKGN_2025,
   title={Psycholinguistic Knowledge-guided Graph Network for Personality Detection of Silent Users},
   author={Houjie Qiu, Xingkong Ma, Bo Liu, Yiqing Cai, Xinyi Chen, Zhaoyun Ding},
   journal={Information Processing & Management},
   year={2025}
 }
+```
 
 ## Ethical Concerns
 
